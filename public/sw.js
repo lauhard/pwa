@@ -5,9 +5,14 @@ self.addEventListener('install', function(event) {
           cache.addAll([
             '/',
             '/index.html',
+            '/help/index.html',
             '/src/css/app.css',
+            '/src/css/feed.css',
+            '/src/css/help.css',
             '/src/js/app.js',
+            '/src/js/feed.js',
             '/src/js/material.min.js',
+            '/manifest.json',
           ])
         })
     );
