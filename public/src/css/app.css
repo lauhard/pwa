@@ -1,0 +1,21 @@
+.animate-in{
+    animation: fade-slide 1.5s forwards;
+}
+.title, .course-feature, button{
+    opacity: 0;
+}
+.course-feature{
+    background-color: aquamarine;
+}
+
+@keyframes fade-slide {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
