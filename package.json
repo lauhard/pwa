@@ -1,0 +1,19 @@
+{
+  "name": "20202909_wpa_tutorial2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauhard/wpa_tutorial.git"
+  },
+  "author": "lauhard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lauhard/wpa_tutorial/issues"
+  },
+  "homepage": "https://github.com/lauhard/wpa_tutorial#readme"
+}
