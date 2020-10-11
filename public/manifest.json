@@ -43,7 +43,7 @@
     "scope":".",
     "display":"standalone",
     "orientation":"portrait-primary",
-    "background-color":"#fff",
+    "background_color":"#fff",
     "theme_color":"#3f51b5",
     "description":"basic PWA tutorial",
     "dir":"ltr",

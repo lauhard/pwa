@@ -1,23 +1,26 @@
 {
-  "name": "20202909_wpa_tutorial2",
+  "name": "pwa",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -c localhost -p 1111"
+    "start": "http-server -c-1 -p1111 "
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lauhard/wpa_tutorial.git"
+    "url": "git+https://github.com/lauhard/pwa.git"
   },
   "author": "lauhard",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lauhard/wpa_tutorial/issues"
+    "url": "https://github.com/lauhard/pwa/issues"
   },
-  "homepage": "https://github.com/lauhard/wpa_tutorial#readme",
+  "homepage": "https://github.com/lauhard/pwa",
   "dependencies": {
     "http-server": "^0.12.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0"
   }
 }
